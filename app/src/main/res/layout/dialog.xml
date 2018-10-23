@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تسجيل العطل"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="مكان العطل...."
+        android:padding="5dp"
+        android:id="@+id/d_e1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="سبب العطل...."
+        android:id="@+id/d_e2"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اختر الفرع"
+        />
+    <Spinner
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+
+        android:layoutDirection="rtl"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تم"
+            android:id="@+id/doneBtn"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/white"
+            android:textColor="@color/colorAccent"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الغاء"
+            android:id="@+id/canBtn"
+            android:textColor="@color/colorAccent"
+            android:background="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

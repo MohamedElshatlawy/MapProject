@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapProject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_dialog_fragment">Map</string>
+    <string name="spinnerPrompt">اختر الفرع</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

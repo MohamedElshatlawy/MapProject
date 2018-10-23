@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+       tools:context=".ListActivity" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_dialg_tv1"
+        android:textSize="18sp"
+        android:text="مكان العطل:"
+        android:padding="5dp"
+        android:textDirection="rtl"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_dialg_tv2"
+        android:textSize="17sp"
+        android:text="سبب العطل:"
+        android:textDirection="rtl"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_dialg_tv3"
+        android:textSize="16sp"
+        android:text="تاريخ العطل:"
+        android:padding="5dp"
+        android:textDirection="rtl"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_dialg_tv4"
+        android:textSize="15sp"
+        android:text="الفرع:"
+        android:textDirection="rtl"
+        android:padding="5dp"
+        />
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الغاء"
+            android:id="@+id/list_dialg_cancelBtn"
+            android:background="@android:color/white"
+            android:textColor="@color/colorAccent"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حذف"
+
+            android:background="@android:color/white"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/list_dialg_doneBtn"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
